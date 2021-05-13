@@ -17,108 +17,118 @@
     <div class="container-fluid container-linear">
         <div class="row container-card">
             <div class="offset-lg-3 col-md-3 col-lg-3 card-col">
-                
                 <div class="card card-perfil">
                     <div class="img-card-perfil">
-                        <img src="./imagens/PERFIL.jpg" alt="foto de perfil" class="card-image mx-auto d-block">
+                        <img src="./imagens/PERFIL.jpg" alt="Foto de perfil" class="card-image mx-auto d-block">
                     </div>
                     <div class="card-body">
-                        <h5 class="text-center card-title" id="nome-no-html">
-                            
-                        </h5>
+                        <h5 class="card-title" style="text-align: center" id="nome-no-html">Enrique R. Fernández</h5>
                         <hr class="hr">
-                        <p class=" text-center" id="cargo-no-html">                           
+                        <p style="text-align: center" id="cargo-no-html">
+                            Developer
                         </p>
                         <div class="botoes-card">
-                            <a href="#" class="btn mr-1" id="btn-sobre">Sobre</a>
-                            <button 
-                            onclick="clickNoProjetos()" 
-                            class="btn ml-1 btn-card" 
-                            id="btn-projetos">
+                            <button onclick="clickNoSobre()" class="btn mr-1" id="btn-sobre">
+                                Sobre
+                            </button>
+                            <button onclick="clickNoProjetos()" class="btn ml-1 btn-card" id="btn-projeto">
                                 Projetos
                             </button>
                         </div>
                         <div class="icon-redes-sociais">
-                            <div class="links-redes-sociais mt-2"></div>
-                            <a href="#">
-                                <i class="fab fa-facebok"></i>
-                            </a>
-                            <a href="#">
-                                <i class="fab fa-twitter"></i>
-                            </a>
-                            <a href="#">
-                                <i class="fab fa-linkedin"></i>
-                            </a>
-                            <a href="#">
-                                <i class="fab fa-instagram"></i>
-                            </a>
+                            <div class="links-redes-sociais mt-2">
+                                <a href="https://www.facebook.com/EFEmpreendimentosDigitais" target="_blank">
+                                    <i class="fab fa-facebook"></i>
+                                </a>
+                                <a href="https://www.instagram.com/efempreendimentosdigitais/" target="_blank">
+                                    <i class="fab fa-instagram"></i>
+                                </a>
+                                <a href="#">
+                                    <i class="fab fa-linkedin"></i>
+                                </a>
+                                <a href="https://api.whatsapp.com/send?phone=5555991812505" target="_blank">
+                                    <i class="fab fa-whatsapp"></i>
+                                </a>
+                            </div>
                         </div>
                     </div>
                 </div>
-               
-                </div>
-                <div class="col-md-6 col-lg-6 text-boody">
-                    <div class="text" id="texto-1">
-                        <h1 class="title-text">Olá</h1>
-                        <h4 class="title-subtitle">bem vindo ao meu currículo</h4>
-                        <p>
-                            Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has
-                            been the industry's standard dummy text ever since the 1500s,
-                        </p>
-                        <p>
-                            Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has
-                            been the industry's standard dummy text ever since the 1500s,
-                        </p>
-                    </div>
+            </div>
+            <div class="col-md-6 col-lg-6 text-body">
+                <div class="text" id="texto-1">
+                    <h1 class="title-text">Olá</h1>
+                    <h4 class="title-subtitle">Bem-vindo ao meu Currículo</h4>
+                    <p>
+                        Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut
+                        labore et dolore magna aliqua. Eget gravida cum sociis natoque penatibus et magnis
+                    </p>
+                    <p>
+                        Vestibulum lorem sed risus ultricies tristique. Sed risus pretium quam vulputate dignissim
+                        suspendisse in. Neque egestas congue quisque egestas diam.
+                    </p>
 
-                    <div class="text" id="texto-2">
-                        <h1 class="title-text">Projetos</h1>
-                        <h4 class="title-subtitle">Alguns projetos que trabalhei</h4>
-                        <p>
-                            <a target="_blank" href="https://growdev.com.br"> Site da Growdev - Este site foi desenvolvido em Reactjs</a>
-                        </p>
-                                                    
-                        
-                    </div>
+                </div>
+
+                <div class="text" id="texto-2">
+                    <h1 class="title-text">Projetos</h1>
+                    <h4 class="title-subtitle">Alguns projetos que trabalhei</h4>
+
+                    <li><a class="links-projetos" target="_blank" href="https://www.oespecialistacanino.com.br">Site do "O
+                        Especialista Canino"</a></li>
+                    <li><a class="links-projetos" target="_blank"
+                        href="http://oespecialistacanino.com.br/cadastre-01-fb">Página de Cadastro para "O Especialista
+                        Canino"</a></li>
+                    <li><a class="links-projetos" target="_blank" href="https://www.sotag.com.br">Site para venda de Tags de
+                        controle de acesso</a></li>
+
+
+                </div>
+
             </div>
         </div>
     </div>
     <footer class="container">
         <div class="row" id="footer-elementos">
             <div class="col-md-3 col-lg-3">
-                <h3>Telefone</h3>
+                <h4>Telefone</h4>
                 <p>(55) 99181 2505</p>
             </div>
             <div class="col-md-3 col-lg-3">
                 <div class="email">
-                    <h3>E-mail</h3>
+                    <h4>E-Mail</h4>
                     <p>contato@efempreendimentos.com.br</p>
                 </div>
             </div>
             <div class="col-md-3 col-lg-3">
-                <h3>Siga</h3>
+                <h4>Siga</h4>
                 <div class="links-redes-sociais">
                     <a href="#">
-                        <i class="fab fa-facebok"></i>
+                        <i class="fab fa-facebook"></i>
                     </a>
                     <a href="#">
-                        <i class="fab fa-twitter"></i>
+                        <i class="fab fa-instagram"></i>
                     </a>
                     <a href="#">
                         <i class="fab fa-linkedin"></i>
                     </a>
                     <a href="#">
-                        <i class="fab fa-instagram"></i>
-                    </a> 
+                        <i class="fab fa-whatsapp"></i>
+                    </a>
                 </div>
             </div>
         </div>
         <div class="row text-center mb-2">
-            <small>2021 <a href="#">Growdev</a></small>
+            <div class="col-lg-12 col-md-12">
+                <small>
+                    2021 growdev. All rights reserved.
+                    <a href="https://growdev.com.br" target="_blank">Growdev</a>
+                </small>
+            </div>
+
         </div>
     </footer>
-
     <script src="./js/index.js"></script>
+
 </body>
 
 </html>

@@ -1,7 +1,7 @@
 body{
     background-color: #f5f5f5;
 }
-.container-caard{
+.container-card{
     padding: 50px 0px 50px 0px;
     margin-bottom: 2em;
 }
@@ -12,13 +12,13 @@ body{
 }
 
 .card-title {
-    font-family: 'poppins';
+    font-family: 'Poppins';
 }
 
-.hr{
+.hr {
     height: 1px;
     background-color: black;
-    width: 30%;
+    width: 100%;   
 }
 
 .card-image{
@@ -29,21 +29,22 @@ body{
 }
 
 .card-perfil{
-    background-color: #19def0;
-    box-shadow: 0px 0px 5px #f5f5f5 ;
+    background-color: #19def0 !important;
+    box-shadow: 0px 5px 8px #615858 ;
 }
 
 .botoes-card{
     display: flex;
     justify-content: center;
+       
 }
 
 #btn-sobre{
     border-radius: 20px;
     padding: 5px 25px;
     background-color: black !important;
-    font-weight: 600;
-    color: white !important;
+    font-weight: 600px;
+    color: #fff !important;
 }
 
 #btn-projeto{
@@ -51,7 +52,7 @@ body{
     border-radius: 20px;
     padding: 5px 25px;
     font-weight: 600px;
-    color: #fff !important;
+    color: rgb(17, 16, 16) !important;
 
 }
 
@@ -77,11 +78,20 @@ body{
     text-decoration: none;
 }
 
+
 .links-redes-sociais i{
     color: black;
     font-size: 25px;
     padding: 10px;
 }
+
+.links-projetos{
+    color: rgb(56, 87, 79);
+    font-size: 15px;
+    padding: 2px;
+    text-decoration: none;
+    }
+
 
 #footer-elementos{
     display: flex;
@@ -94,10 +104,44 @@ body{
 
 @media (min-width: 900px) {
 
-    .conainer-linear{
+    .container-linear{
         background: linear-gradient(to left, #fff 60%, #19def0 40%);
     }
 
+    .card-col{
+        display: flex;
+        justify-content: flex-end;
+        align-content: center;
+        background-color: #fff !important;
+        box-shadow: -10px 5px 10px 0px #292a2d;
+    }
+
+    .card-perfil{
+        background-color: #fff !important;
+        color: #292a2d;
+        box-shadow: none !important;
+        width: 18em;
+        border: none !important;
+    }
+
+    .btn-card{
+        color: black !important;
+    }
+
+    .text-body {
+        box-shadow: none;
+    }
+
+    .text{
+        max-width: 430px;
+        vertical-align: middle;
+        margin-top: 2em;
+    }
+
+    #footer-elementos{
+        display: flex !important;
+        justify-content: center !important;
+    }
 }
 
 #texto-1{
